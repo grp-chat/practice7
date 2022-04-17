@@ -940,7 +940,7 @@ function clickableGrid(rows, cols, callback, tblName, userId) {
     //grid.style.float = "left";
     redTitle = grid.appendChild(document.createElement('th'));
     //redTitle.style = "background:rgba(255, 0, 0, 0.6); color:white";
-    redTitle.style.background = "lightblue";
+    redTitle.style.background = "cornflowerblue";
     redTitle.style.color = "white"
     redTitle.colSpan = 2;
     redTitle.innerHTML = userId;
@@ -1191,8 +1191,8 @@ topDiv.appendChild(sideDiv1);
 //LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====
 labelRes = document.createElement('h2');
 //labelRes.setAttribute("id", "labelres");
-labelRes.innerHTML = "Round 10 Result:";
-labelRes.style.width = "250px";
+labelRes.innerHTML = "Round 1 Time:";
+labelRes.style.width = "220px";
 labelRes.style.color = "mediumblue";
 labelRes.style.float = "left";
 labelRes.style.marginLeft = "0px"
@@ -1225,8 +1225,8 @@ document.body.appendChild(subBtn);
 
 //LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====LABEL=====
 labelPen = document.createElement('h2');
-labelPen.innerHTML = "Penalty Points:";
-labelPen.style.width = "250px";
+labelPen.innerHTML = "Amount:";
+labelPen.style.width = "220px";
 labelPen.style.color = "mediumblue";
 labelPen.style.float = "left";
 labelPen.style.marginLeft = "0px"
